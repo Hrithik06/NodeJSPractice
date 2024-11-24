@@ -3,13 +3,15 @@ console.log("Hi Hello");
 var a = 35235235223;
 var b = 23423;
 
-//DON'T USE t
-//Sync Funhis
-crypto.pbkdf2Sync("password", "salt", 50000000, 20, "sha512");
+//DON'T USE
+//Sync Funs block Main Thread
+crypto.pbkdf2Sync("password", "salt", 5000000, 20, "sha512");
 console.log("First Key Generated Sync");
-
+setTimeout(function () {
+  console.log("CALL ME RIGHT NOW!!!!!!!");
+}, 0);
 //Async Fun
-crypto.pbkdf2("password", "salt", 50000000, 20, "sha512", (err, key) => {
+crypto.pbkdf2("password", "salt", 5000000, 20, "sha512", (err, key) => {
   console.log("Second Key Generated ASync");
 });
 
