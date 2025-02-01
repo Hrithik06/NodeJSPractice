@@ -1,25 +1,25 @@
 {
-  "name": "nodejspractice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "type": "commonjs",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "node dist/app.js",
-    "dev": "nodemon --watch src --ext ts --exec ts-node express_js/authExample.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "mongodb": "^6.12.0",
-    "express": "^4.21.2",
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.10.2",
-    "nodemon": "^3.1.9",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
-  }
+    "name": "nodejspractice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "start": "node dist/app.js",
+        "dev": "nodemon --watch src --ext ts --exec ts-node express_js/errorHandling.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "mongodb": "^6.12.0",
+        "express": "^4.21.2",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.10.2",
+        "nodemon": "^3.1.9",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    }
 }
