@@ -1,7 +1,6 @@
 const { MongoClient } = require('mongodb')
 
-const url =
-    'mongodb+srv://writhikdev:<db_password>@helloworldcluster.xryir.mongodb.net/?retryWrites=true&w=majority&appName=HelloWorldCluster'
+const url = 'mongodb-connection-string'
 
 const client = new MongoClient(url)
 
